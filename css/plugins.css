@@ -48147,7 +48147,7 @@ header {
 }
 
 .navbar-nav>li.has-sub {
-    padding-right: 13px
+    padding-right: 10px
 }
 
 .navbar-nav>li>a {
@@ -48535,9 +48535,9 @@ header {
         margin-top: -95px
     }
 
-    .top-position1 {
+    /* .top-position1 {
         margin-top: -96px
-    }
+    } */
 
     .header-style1 {
         box-shadow: none
@@ -49103,9 +49103,9 @@ header {
         margin-top: -72px
     }
 
-    .top-position1 {
+    /* .top-position1 {
         margin-top: -73px
-    }
+    } */
 
     .header-style1 {
         box-shadow: none

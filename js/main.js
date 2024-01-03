@@ -90,7 +90,7 @@
                     items: 3
                 }
             }
-        }), t(".testimonial-carousel-02").owlCarousel({
+        }), t(".community-carousel").owlCarousel({
             loop: !0,
             responsiveClass: !0,
             autoplay: !0,
@@ -108,10 +108,10 @@
                     items: 1
                 },
                 992: {
-                    items: 1
+                    items: 2
                 },
                 1200: {
-                    items: 1
+                    items: 2
                 }
             }
         }), t(".testimonial-carousel5").owlCarousel({
@@ -303,3 +303,9 @@
         })
     })
 }(jQuery);
+
+const showHideSocialIcon = document.querySelector('.fa-share');
+
+showHideSocialIcon.addEventListener('click', function () {
+    document.querySelector('.st-toggleable').classList.toggle("st-left0");
+});
