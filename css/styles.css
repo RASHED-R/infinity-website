@@ -1870,8 +1870,9 @@ a:active {
 
 .card-style04 {
     overflow: hidden;
-    box-shadow: 0 0 70px rgba(0, 0, 0, 0.08);
-    border: none
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin: 10px;
 }
 
 .card-style04 .card-list {
@@ -4227,7 +4228,7 @@ h2.resp-accordion.resp-tab-active {
     display: flex;
     overflow: hidden;
     position: relative;
-    min-height: 307px;
+    min-height: 450px;
     justify-content: center;
     width: 100%;
 }
@@ -4410,7 +4411,7 @@ h2.resp-accordion.resp-tab-active {
     position: relative;
     overflow: hidden;
     margin-bottom: 0;
-    height: 350px;
+    height: 450px;
 }
 
 .team-style01:hover .image img {
@@ -4424,8 +4425,6 @@ h2.resp-accordion.resp-tab-active {
     -webkit-transition: all 400ms ease;
     transition: all 400ms ease;
     height: 100%;
-    object-fit: cover;
-
 }
 
 .team-style01:hover .image a:after {

@@ -808,4 +808,13 @@
         .banner-style01 .main-title {
             font-size: 36px
         }
+
+        .min-vh-100 {
+            min-height: 400px !important;
+        }
+
+        .item.bg-img.cover-background {
+            min-height: 400px !important;
+            background-size: 100% 100% !important;
+        }
     }

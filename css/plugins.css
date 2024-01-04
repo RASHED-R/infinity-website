@@ -48141,7 +48141,7 @@ header {
 }
 
 .navbar-nav>li {
-    margin-left: 16px;
+    margin-left: 40px;
     float: left;
     text-align: center
 }
@@ -48180,7 +48180,7 @@ header {
 .navbar>ul>li.has-sub>a:after {
     position: absolute;
     top: 29px;
-    right: -8px;
+    right: -12px;
     content: "";
     border-color: transparent #282b2d #282b2d transparent;
     border-style: solid;
