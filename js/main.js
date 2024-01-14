@@ -214,7 +214,7 @@
             autoplayTimeout: 5e3,
             smartSpeed: 1500,
             nav: !1,
-            dots: !1,
+            dots: 1,
             center: !1,
             margin: 30,
             responsive: {

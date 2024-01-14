@@ -11,6 +11,10 @@
     --black-color: rgb(40, 43, 45);
 }
 
+.about-icon {
+    filter: invert(48%) sepia(60%) saturate(1303%) hue-rotate(161deg) brightness(97%) contrast(103%);
+}
+
 li {
     list-style: none;
 }
@@ -135,8 +139,7 @@ li {
     border-radius: 0;
     background-color: var(--bs-primary);
     z-index: -1;
-    -webkit-transition: var(--bs-transition);
-    transition: var(--bs-transition);
+    transition: .3s all;
 }
 
 .design-item:hover:before,
@@ -611,6 +614,10 @@ li {
 
 .st-2 .st-btn>span {
     color: #fff
+}
+
+.faq-section.section-title .sm-title:after {
+    left: 90px !important;
 }
 
 /* side social */
@@ -1223,8 +1230,9 @@ a:active {
 }
 
 .banner-style01 .main-title {
-    font-size: 120px;
-    line-height: 1
+    font-size: 88px;
+    line-height: 1;
+    letter-spacing: 3px;
 }
 
 
@@ -3740,7 +3748,7 @@ h2.resp-accordion.resp-tab-active {
     border-bottom: 4px solid var(--brand-color)
 }
 
-.about-style-02 .about-icon-box .about-icon {
+.about-style-02 .about-icon-box .about-icon-side {
     font-size: 40px;
     color: #283734;
     height: 70px;
@@ -3782,7 +3790,7 @@ h2.resp-accordion.resp-tab-active {
     left: 25%
 }
 
-.thumb-image .about-icon {
+.thumb-image .about-iconn {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -3790,7 +3798,7 @@ h2.resp-accordion.resp-tab-active {
     text-align: center;
     margin-left: -26px;
     margin-top: 8px;
-    border-radius: 50px
+    border-radius: 50px;
 }
 
 .thumb-image .img1,
@@ -4855,10 +4863,10 @@ h2.resp-accordion.resp-tab-active {
     justify-content: center;
 }
 
-.testimonial-carousel3.owl-theme .owl-dots .owl-dot span {
+/* .testimonial-carousel3.owl-theme .owl-dots .owl-dot span {
     background: #34da89;
     border-radius: 0
-}
+} */
 
 .testimonial-carousel3 .owl-dots .owl-dot.active span,
 .testimonial-carousel3 .owl-dots .owl-dot:hover span {
